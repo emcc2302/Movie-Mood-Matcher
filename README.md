@@ -85,11 +85,14 @@
 
 MovieMoodMatcher/
 ├── index.html
-├── style.css
-├── script.js
-├── README.md
-└── moviematch.png ✅ <--- Make sure this exists!
 
+├── style.css
+
+├── script.js
+
+├── README.md
+
+└── moviematch.png
 
 
 
