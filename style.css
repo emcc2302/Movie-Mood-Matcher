@@ -1,0 +1,96 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f0f2f5, #fff);
+  margin: 0;
+  padding: 0;
+  color: #333;
+  text-align: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 3rem 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.dropdowns {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+select, button {
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+#fetchBtn {
+  cursor: pointer;
+  background: #0077cc;
+  color: #fff;
+  border: none;
+  transition: 0.3s ease;
+}
+
+#fetchBtn:hover {
+  background: #005fa3;
+}
+
+.movie-output {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+.movie-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.movie-card:hover {
+  transform: scale(1.03);
+}
+
+.movie-card img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.movie-info {
+  padding: 1rem;
+  text-align: left;
+}
+
+.movie-info h3 {
+  margin: 0 0 0.5rem;
+}
+
+.movie-info p {
+  margin: 0.3rem 0;
+}
+
+.movie-info a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="author" content="Soriful Islam Sk" />
+  <title>Movie Mood Matcher</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>🎬 Movie Mood Matcher</h1>
+    <p class="subtitle">Find movies based on your mood and industry</p>
+    <div class="dropdowns">
+      <select id="mood">
+        <option value="comedy">😊 Happy / Comedy</option>
+        <option value="drama">😢 Sad / Drama</option>
+        <option value="romance">😍 Romantic / Romance</option>
+        <option value="action">😠 Angry / Action</option>
+        <option value="animation">😌 Chill / Animation</option>
+      </select>
+      <select id="industry">
+  <option value="any">🌍 Any Industry</option>
+  <option value="hollywood">🇺🇸 Hollywood</option>
+  <option value="bollywood">🇮🇳 Bollywood</option>
+  <option value="korean">🇰🇷 Korean</option>
+  <option value="anime">🇯🇵 Anime</option>
+</select>
+
+      <button id="fetchBtn">🎞️ Get Best Movies</button>
+    </div>
+    <div id="movie-output" class="movie-output"></div>
+  </div>
+
+
+
+
+  <footer style="text-align:center; margin-top:40px; font-size:14px;">
+  Made with ❤️ by <strong>Soriful Islam Sk</strong>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
