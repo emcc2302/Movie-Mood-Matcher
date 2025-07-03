@@ -48,7 +48,8 @@
 
 
 
-!\[Movie Mood Matcher Screenshot](./moviematch.png) <!-- Add a real screenshot file if available -->
+![Movie Mood Matcher Screenshot](./moviematch.png)
+<!-- Add a real screenshot file if available -->
 
 
 
@@ -83,14 +84,12 @@
 
 
 MovieMoodMatcher/
-
 ├── index.html
-
 ├── style.css
-
 ├── script.js
+├── README.md
+└── moviematch.png ✅ <--- Make sure this exists!
 
-└── README.md
 
 
 
